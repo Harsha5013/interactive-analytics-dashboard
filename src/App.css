@@ -1,0 +1,8 @@
+.appLayout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.mainContainer {
+  min-height: 100vh;
+}
