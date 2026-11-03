@@ -35,6 +35,11 @@ const App = () => {
       console.error(err)
       setError('Google sign-in failed. Please try again.')
     }
+
+    const url = "https://gorest.in/public/v2/users"
+    const userResponse = await fetch(url)
+    const fetchedData = await userResponse.json()
+    console.log(fetchedData)
   }
 
   const handleLogout = () => {

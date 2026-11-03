@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "month": "January",
+    "revenue": 120000,
+    "cost": 75000,
+    "profit": 45000,
+    "transactions": 1200,
+    "users": 850,
+    "likes": 450
+  },
+  {
+    "id": 2,
+    "month": "February",
+    "revenue": 145000,
+    "cost": 85000,
+    "profit": 60000,
+    "transactions": 1500,
+    "users": 1100,
+    "likes": 620
+  },
+  {
+    "id": 3,
+    "month": "March",
+    "revenue": 135000,
+    "cost": 90000,
+    "profit": 45000,
+    "transactions": 1350,
+    "users": 950,
+    "likes": 580
+  },
+  {
+    "id": 4,
+    "month": "April",
+    "revenue": 180000,
+    "cost": 110000,
+    "profit": 70000,
+    "transactions": 1800,
+    "users": 1400,
+    "likes": 780
+  },
+  {
+    "id": 5,
+    "month": "May",
+    "revenue": 210000,
+    "cost": 125000,
+    "profit": 85000,
+    "transactions": 2200,
+    "users": 1750,
+    "likes": 950
+  },
+  {
+    "id": 6,
+    "month": "June",
+    "revenue": 195000,
+    "cost": 115000,
+    "profit": 80000,
+    "transactions": 2000,
+    "users": 1600,
+    "likes": 870
+  }
+]

@@ -1,7 +1,20 @@
 import './index.css'
 import {GoogleLogin} from '@react-oauth/google'
+import {useState} from "react"
 
 const Login = ({onLoginSuccess}) => {
+  const [email,setEmail] = useState("")
+  const [password,setPassword] = useState("")
+  const onPasswordChange = (event) => {
+      setPassword(event.target.value)
+  }
+  const onEmailChange = (event) => {
+      setEmail(event.target.value)
+  }
+  const onSignIn = async() => {
+     const userDetails = {email,password}
+     
+  }
   return (
     <div className="mainContainer">
       <div className="logoContainer">
@@ -46,6 +59,7 @@ const Login = ({onLoginSuccess}) => {
               id="email"
               type="email"
               placeholder="Enter email"
+              onChange ={onEmailChange}
             />
 
             <label htmlFor="password" className="formPara">
@@ -57,13 +71,14 @@ const Login = ({onLoginSuccess}) => {
               id="password"
               type="password"
               placeholder="Enter password"
+               onChange ={onPasswordChange}
             />
 
             <a href="#">
               <p className="formPara">Forgot password?</p>
             </a>
 
-            <button type="submit" className="signInButton">
+            <button onClick ={onSignIn} type="submit" className="signInButton">
               Sign in
             </button>
           </form>
