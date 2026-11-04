@@ -46,15 +46,22 @@
     width: 100%;
     flex: auto;
   }
+  .header{
+    flex-direction: column;
+  }
 }
+
+
 .valueContainer {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 .values {
   height: 100px;
-  width: 200px;
+  flex: 1 1 150px;
+  min-width: 0;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -87,7 +94,7 @@
 }
 .searchBox {
   position: relative;
-  right: 100px;
+  right: auto;
   background-color: rgb(252, 228, 228);
   padding: 5px;
   border-radius: 5px;
