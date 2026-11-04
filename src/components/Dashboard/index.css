@@ -35,6 +35,11 @@
   .miniChart {
     flex-direction: column;
   }
+  .valueContainer {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
 
   .pie,
   .bar {
@@ -42,12 +47,12 @@
     flex: auto;
   }
 }
-.valueContainer{
+.valueContainer {
   display: flex;
   gap: 20px;
   margin-top: 10px;
 }
-.values{
+.values {
   height: 100px;
   width: 200px;
   border-radius: 5px;
@@ -57,30 +62,30 @@
   align-items: center;
   padding: 10px;
 }
-.Revenues{
+.Revenues {
   background-color: aquamarine;
 }
-.Transactions{
+.Transactions {
   background-color: rgb(247, 209, 173);
 }
-.Users{
+.Users {
   background-color: rgb(215, 186, 254);
 }
-.Likes{
+.Likes {
   background-color: rgb(255, 221, 200);
 }
-.icons{
+.icons {
   position: relative;
-  top:-10px;
+  top: -10px;
   left: 60px;
   font-size: 20px;
 }
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.searchBox{
+.searchBox {
   position: relative;
   right: 100px;
   background-color: rgb(252, 228, 228);

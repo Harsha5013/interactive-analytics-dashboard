@@ -7,11 +7,21 @@
 .mainContainer {
   min-height: 100vh;
   width: 100%;
+  display: flex;
 }
 
 .appLayout {
-  display: flex;
   min-height: 100vh;
   width: 100%;
   background-color: rgb(240, 237, 237);
+}
+@media (max-width : 480px) {
+.mainContainer {
+  flex-direction:column
+}
+.appLayout{
+  width: 100%;
+  min-height: 70vh;
+}
+  
 }

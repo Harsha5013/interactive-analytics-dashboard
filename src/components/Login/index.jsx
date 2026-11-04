@@ -16,7 +16,7 @@ const Login = ({onLoginSuccess}) => {
      
   }
   return (
-    <div className="mainContainer">
+    <div className="mainLoginContainer">
       <div className="logoContainer">
         <h1>Board</h1>
       </div>
